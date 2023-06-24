@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: hsl(24, 96%, 64%); 
+        }
+        header {
+            background-color: #7A4725;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: #FB914B;
+            padding: 5px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.411) ;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            color: #C75000;
+        }
+        main {
+            background-color: #7A4725;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: #f5eee6;
+            padding: 5px;
+            border-radius: 10px 5px;
+        }
+        article#c{
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.329);
+        }
+        article > aside {
+            background-color: rgb(146, 86, 14);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#b{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+ <header>
+    <h1> Test with menu</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+ </header>
+ <main>
+    <section id="assuntos">Aconteceu por aí</section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, repellat sequi, corrupti ducimus non aperiam eaque nisi aut natus officia in veniam ad molestias, temporibus repellendus modi accusantium possimus suscipit?</p>
+    <section id="noticias">
+        <article id="c">
+            <h2>Randon News</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto, voluptatum tempora natus iste ex sapiente quibusdam veritatis magnam aspernatur expedita maxime dignissimos molestiae? Minima quasi architecto numquam expedita quo!</p>
+            <article>
+                <p>Artigo redigido por: <q>Lorem</q></p>
+            </article>
+        </article>
+        
+    </section>
+
+ </main>
+ <footer>
+    <p>Developed by Wendel</p>
+</footer>
+<div id="b"></div>
+</body>
+</html>

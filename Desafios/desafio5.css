@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&');
+
+body{
+    background-color:#ece5dd;
+}
+h1:hover{
+    color:#FC7A51;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+div{
+    background-color: #ffffff;
+}
+h1{
+    text-align: center;
+}
+.rale{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    text-indent: 10px;
+}
+h3{
+    text-indent: 10px;
+}
+p{
+    text-indent: 10px;
+}
+footer{
+    text-align: right;
+}
+
+
+/*Aplicações usadas até agora: Fontes externas, div com hover, class, funções CSS, link no rodapé para pagina em outra página interna e externa */

@@ -1,0 +1,13 @@
+@font-face{
+    font-family:'candy' ;
+    src: url(font/Filxgirl.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'candy', Times, serif;
+    font-size: 6em;
+}

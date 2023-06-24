@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkes Personalizandos</title>  
+    <body>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+            a{
+                color: brown;
+                text-decoration: none;
+
+            }
+            a:visited{
+                color: rgb(1, 14, 9);
+            }
+            a:hover{
+                text-decoration: underline;
+                color: blue;
+            }
+            a:active{
+                color: chocolate;
+            }
+            a::after{
+                content: ' ⇔';
+                text-decoration: none;
+                font-weight: normal;
+                color: rgb(4, 85, 85);
+            }
+        </style>
+    </body>
+</head>
+<body>
+   <h1>Personalizando Links</h1>
+   <li><a href="https://www.linkedin.com/in/wendel-santos-fontes-719a59173/" target="_blank">Linkedin</a></li>
+   <li><a href="https://www.instagram.com/wendel___sf/" target="_blank">Instagram</a></li>
+   <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+</body>
+</html>
