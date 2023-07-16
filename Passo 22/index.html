@@ -6,20 +6,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        h1{ 
+            text-align: center;
+        }
         div.quadrado{
             border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: lightblue;
+            align-items: normal;
+        }
+        div#q1{
+            background-color: cadetblue;
+        }
+        div#q2{
+            background-image:linear-gradient(to bottom, orange, red) ;
+        }
+        div#q3{
+            background-image: url(imagens/pattern002.png);
+        }
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
         }
     </style>
 </head>
 <body>
     <h1>Teste de imagem de fundo</h1>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
