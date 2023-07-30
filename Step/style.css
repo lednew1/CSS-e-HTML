@@ -1,0 +1,34 @@
+body{
+    background-color: #1d224be7;
+}
+header{
+    background-color: #5b6bff;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+h1{
+    font-style: bold;
+}
+nav{
+    margin: 12px 12px;
+    padding: 12px 12px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+ }
+ a#ip:hover{
+    color: black;
+ }
+main{
+    background-color: white;
+    margin: 5px 5px;
+    padding: 3px 5px ;
+    border-radius: 3px;
+ }
+p{
+    font-size: 20px;
+}
